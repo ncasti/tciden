@@ -1,0 +1,16 @@
+<% provide(:next, "") %>
+<% provide(:rb, "Start") %>
+<h1>New Session</h1>
+<div>
+<%= form_for(:session, url: login_path) do |f| %>
+
+	<%= f.label :language %>
+	<%= f.text_field :language %>
+	<br>
+	<%= f.label :level %>
+	<%= f.text_field :level %>
+	<br>
+	<%= f.submit "Start test" %>
+
+<% end %>
+</div>

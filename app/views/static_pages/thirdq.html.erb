@@ -1,0 +1,19 @@
+<% provide(:next, "four") %>
+<% provide(:rb, "Next") %>
+<% provide(:mseconds, "160000") %>
+<% provide(:visibility, "hidden") %>
+
+<h1>Question 3</h1>
+<p>Click on the audio button to listen to the question and then record your answer</p>
+<div id="leftbox">
+<audio controls>
+  <source src="<%= @question_3 %>" type="audio/mpeg">
+</audio>
+<p><%= @text_3[@randomnumber] %></p>
+</div>
+
+<div id="rightbox">
+<camera id='question1' data-app-id='a-ac314730-f281-0132-1c35-22000a9e3691' data-sources='record' data-maxlength='60' style='width:300px;height:240px;' data-pre-roll-length='20' data-preview-on-recording='false'></camera>
+
+
+</div>
