@@ -162,6 +162,12 @@ audio {
 	visibility: hidden;
 }
 
+.cameratag_accept_btn span {
+	visibility: hidden
+}
 
-
+.cameratag_accept_btn:after {
+	content: "Submit Video";
+	visibility: visible; 
+}
 
