@@ -153,4 +153,15 @@ audio {
   top: 50%;
   transform: translateY(-50%);
 }
+
+.cameratag_rerecord_btn {
+	visibility: hidden;
 }
+
+.cameratag_play_btn {
+	visibility: hidden;
+}
+
+
+
+
